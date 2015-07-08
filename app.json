@@ -1,0 +1,24 @@
+{
+  "name":"sandeep",
+  "scripts":{},
+  "env":{
+    "CANVAS_CONSUMER_KEY":{
+      "required":true
+    },
+    "CANVAS_CONSUMER_SECRET":{
+      "required":true
+    },
+    "JAVA_OPTS":{
+      "required":true
+    },
+    "MAVEN_OPTS":{
+      "required":true
+    },
+    "PATH":{
+      "required":true
+    }
+  },
+  "addons":[
+    "heroku-postgresql"
+  ]
+}
